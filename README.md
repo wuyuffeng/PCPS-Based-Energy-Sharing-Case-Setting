@@ -30,7 +30,7 @@ This file contains all parameters for each electri vehicle (EV), where:
 >_**'Household_index'**_ : The index for the household associated with EV;  
 >_**'t_arp'**_ : EV's arrival times at PCP;  
 >_**'t_lep'**_ : EV's departure times at PCP;
->>_**'tarh'**_ : EV's arrival times at home;  
+>_**'tarh'**_ : EV's arrival times at home;  
 >_**'tleh'**_ : EV's departure times at home;  
 >_**'EEVexp'**_ : EV’s desired charging capacity at matched PCP;  
 >_**'p_serHmax'**_ : EV's maximum acceptable service fee per kWh;  
