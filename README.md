@@ -18,10 +18,10 @@ This file contains all parameters for each private charging piles (PCP) in PCPS 
 
 >_**'PCP_Index'**_ : The index of each PCP;  
 >_**'Household_index'**_ : The index for the household associated with PCP;  
->_**'T_ksta'**_ : The available start time of PCP;
->_**'T_kend'**_ : The available end time of PCP;
->_**'P_powermax'**_ : The maximum discharge/charging power of PCP;
->_**'p_sermin'**_ : The PCP's minimum acceptable service fee per kWh;
->_**'x and y'**_ : The location of PCP;
+>_**'T_ksta'**_ : The available start time of PCP;  
+>_**'T_kend'**_ : The available end time of PCP;  
+>_**'P_powermax'**_ : The maximum discharge/charging power of PCP;  
+>_**'p_sermin'**_ : The PCP's minimum acceptable service fee per kWh;  
+>_**'x and y'**_ : The location of PCP;  
 
 
