@@ -29,18 +29,18 @@ This file contains all parameters for each electri vehicle (EV), where:
 >_**'EV_Index'**_ : The index of each EV;  
 >_**'Household_index'**_ : The index for the household associated with EV;  
 >_**'t_arp'**_ : EV's arrival times at PCP;  
->_**'t_lep'**_ : EV's departure times at PCP;
+>_**'t_lep'**_ : EV's departure times at PCP;  
 >_**'t_arh'**_ : EV's arrival times at home;  
 >_**'t_leh'**_ : EV's departure times at home;  
 >_**'EEVexp'**_ : EV’s desired charging capacity at matched PCP;  
 >_**'p_serHmax'**_ : EV's maximum acceptable service fee per kWh;  
->_**'x and y'**_ : The location of EV;
+>_**'x and y'**_ : The location of EV;  
 >_**'ItaEV'**_ : The charging and discharging efficiencies of EV;  
 >_**'aEV, bEV and cEV'**_ : The discharging degradation coefficients of EV;  
 >_**'EEVarh'**_ : The initial energy of EV when arrive at home;  
 >_**'EEVlehmin'**_ : The minimum energy of EV when departuring home;  
 >_**'EEVtra'**_ : The energy consumption of EV during _**'t_leh'**_ to _**'t_arp'**_;  
->_**'EEVup'**_ : EV’s maximum capacity;
+>_**'EEVup'**_ : EV’s maximum capacity;  
 >_**'EEVlow'**_ : EV’s minimum capacity;  
 
 
