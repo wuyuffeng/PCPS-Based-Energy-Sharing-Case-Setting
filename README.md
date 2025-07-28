@@ -11,7 +11,7 @@ This project is a instruction for the ***parameters*** of the case studies in ou
 > _**ShenZhen Case**_: The parameters of the PCPS matching and PCPS-Based energy sharing problem on ShenZhen case, involving 1615 households.
 
 <div align="center">
-  <img src = "Schematic diagram of Cases.png" width="1000" height="200">
+  <img src = "Schematic diagram of Cases.png" width="900" height="400">
 </div> 
 Fig.1. Schematic diagram of Cases. (Red dots are PCP, blue dots are EV in ShenZhen Case)
 
