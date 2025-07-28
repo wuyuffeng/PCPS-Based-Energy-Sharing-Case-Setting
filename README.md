@@ -8,7 +8,12 @@
 This project is a instruction for the ***parameters*** of the case studies in our paper  ***"A Practical Network-Free Energy Sharing Based on Private Charge Pile Sharing"***. 
 
 > _**Toy Case**_: The parameters of the PCPS matching and PCPS-Based energy sharing problem on Toy case, involving 4 households.  
-> _**ShenZhen Case**_: The parameters of the PCPS matching and PCPS-Based energy sharing problem on ShenZhen case, involving 1615 households.  
+> _**ShenZhen Case**_: The parameters of the PCPS matching and PCPS-Based energy sharing problem on ShenZhen case, involving 1615 households.
+
+<div align="center">
+  <img src = "Schematic diagram of Cases.png"/>
+</div> 
+Fig.Schematic diagram of Cases. (Red dots are PCP, blue dots are EV in ShenZhen Case)
 
 # Parameters Description
 The parameters for each case are recorded in **six** Excel files, including ***PCPParameters.xlsx***, ***EVParameters.xlsx***, ***HouseholdParameters.xlsx***, ***HouseholdLoad.xlsx***, ***HouseholdPV.xlsx***, and ***TOU&FIT.xlsx***
@@ -53,7 +58,7 @@ This file contains the parameters of TG and ES for each household, where:
 >_**'PTGlow'**_ : The minimum power limit of TG;  
 >_**'PTGraup'**_ : The maximum downward ramp rate of TG.;  
 >_**'PTGralow'**_ : The maximum upward ramp rate of TG;  
->_**'aES, bES, cES'**_ : The charging and discharging degradation cost coefficients of ES;
+>_**'aES, bES, cES'**_ : The charging and discharging degradation cost coefficients of ES;  
 >_**'ItaES'**_ : The charging and discharging efficiencies of ES;  
 >_**'PESup'**_ : The index for the household associated with PCP;  
 >_**'EESup'**_ :  The maximum energy limit of ES;  
