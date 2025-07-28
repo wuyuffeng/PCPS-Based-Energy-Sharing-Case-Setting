@@ -10,10 +10,10 @@ This project is a instruction for the ***parameters*** of the case studies in ou
 > _**Toy Case**_: The parameters of the PCPS matching and PCPS-Based energy sharing problem on Toy case, involving 4 households.  
 > _**ShenZhen Case**_: The parameters of the PCPS matching and PCPS-Based energy sharing problem on ShenZhen case, involving 1615 households.
 
-<div align="center">
+<div align="center">{:width="300px"}
   <img src = "Schematic diagram of Cases.png"/>
 </div> 
-Fig.Schematic diagram of Cases. (Red dots are PCP, blue dots are EV in ShenZhen Case)
+Fig.1. Schematic diagram of Cases. (Red dots are PCP, blue dots are EV in ShenZhen Case)
 
 # Parameters Description
 The parameters for each case are recorded in **six** Excel files, including ***PCPParameters.xlsx***, ***EVParameters.xlsx***, ***HouseholdParameters.xlsx***, ***HouseholdLoad.xlsx***, ***HouseholdPV.xlsx***, and ***TOU&FIT.xlsx***
