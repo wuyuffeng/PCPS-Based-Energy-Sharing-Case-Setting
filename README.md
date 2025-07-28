@@ -11,7 +11,7 @@ This project is a instruction for the ***parameters*** of the case studies in ou
 > _**ShenZhen Case**_: The parameters of the PCPS matching and PCPS-Based energy sharing problem on ShenZhen case, involving 1615 households.  
 
 # Parameters Description
-The parameters for each case are recorded in 4 Excel files, including ***PCPParameters.xlsx***, ***EVParameters.xlsx***
+The parameters for each case are recorded in **six** Excel files, including ***PCPParameters.xlsx***, ***EVParameters.xlsx***, ***HouseholdParameters.xlsx***, ***HouseholdLoad.xlsx***, ***HouseholdPV.xlsx***, and ***TOU&FIT.xlsx***
 
 ## PCPParameters.xlsx
 This file contains all parameters for each private charging piles (PCP), where:
@@ -41,29 +41,35 @@ This file contains all parameters for each electri vehicle (EV), where:
 >_**'EEVlehmin'**_ : The minimum energy of EV when departuring home;  
 >_**'EEVtra'**_ : The energy consumption of EV during _**'t_leh'**_ to _**'t_arp'**_;  
 >_**'EEVup'**_ : EV’s maximum capacity;  
->_**'EEVlow'**_ : EV’s minimum capacity;  
+>_**'EEVlow'**_ : EV’s minimum capacity.  
 
 
-## EVParameters.xlsx
-This file contains all parameters for each electri vehicle (EV), where:
->_**'EV_Index'**_ : The index of each EV;  
->_**'Household_index'**_ : The index for the household associated with EV;  
->_**'t_arp'**_ : The available start time of PCP;  
->_**'t_lep'**_ : The available end time of PCP;  
->_**'EEVexp'**_ : The maximum discharge/charging power of PCP;  
->_**'p_serHmax'**_ : The PCP's minimum acceptable service fee per kWh;  
->_**'x and y'**_ : The location of PCP;
->_**'ItaEV'**_ : The index of each PCP;  
->_**'Household_index'**_ : The index for the household associated with PCP;  
->_**'aEV, bEV and cEV'**_ : The available start time of PCP;  
->_**'EEVarh'**_ : The available end time of PCP;  
->_**'EEVlehmin'**_ : The maximum discharge/charging power of PCP;  
->_**'EEVtra'**_ : The PCP's minimum acceptable service fee per kWh;  
->_**'EEVup'**_ : The location of PCP;  
->_**'EEVarh'**_ : The available end time of PCP;  
->_**'EEVlow'**_ : The maximum discharge/charging power of PCP;  
->_**'tarh'**_ : The PCP's minimum acceptable service fee per kWh;  
->_**'tleh'**_ : The location of PCP;  
+## HouseholdParameters.xlsx
+This file contains the parameters of TG and ES for each household, where:
 
+>_**'Household_index'**_ : The index of each household;  
+>_**'aTG, bTG, and cTG'**_ : The quadratic, linear, and constant cost coefficients of TG;  
+>_**'PTGup'**_ : The maximum power limit of TG;  
+>_**'PTGlow'**_ : The minimum power limit of TG;  
+>_**'PTGraup'**_ : The maximum downward ramp rate of TG.;  
+>_**'PTGralow'**_ : The maximum upward ramp rate of TG;  
+>_**'aES, bES, cES'**_ : The charging and discharging degradation cost coefficients of ES;
+>_**'ItaES'**_ : The charging and discharging efficiencies of ES;  
+>_**'PESup'**_ : The index for the household associated with PCP;  
+>_**'EESup'**_ :  The maximum energy limit of ES;  
+>_**'EESlow'**_ : The minimum energy limit of ES;  
+>_**'EESinit'**_ : The initial energy of ES;
 
+In particular, when the household does not contain associated resources,  corresponding parameters are empty.
 
+## HouseholdLoad.xlsx
+
+This file contains the Load demand data of households, where each column represents a household. 
+
+## HouseholdPV.xlsx
+
+This file contains the Photovoltaic power data of households, where each column represents a household. 
+
+## TOU&FIT.xlsx
+
+This file contains the Time-of-use tariffs (TOU) and Feed-in-tariffs (FIT) for all households. 
